@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:BoardGameCompanion.xcodeproj">
+      location = "self:RiskCompanionApp.xcodeproj">
    </FileRef>
 </Workspace>

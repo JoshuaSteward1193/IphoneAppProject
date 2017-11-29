@@ -7,25 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D4AF12A31FBCF402009E856A /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AF12A21FBCF402009E856A /* PageViewController.swift */; };
-		D4F2CF9A1FA1144C00B09400 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F2CF991FA1144C00B09400 /* AppDelegate.swift */; };
-		D4F2CFA11FA1144C00B09400 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4F2CF9F1FA1144C00B09400 /* Main.storyboard */; };
-		D4F2CFA31FA1144C00B09400 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4F2CFA21FA1144C00B09400 /* Assets.xcassets */; };
-		D4F2CFA61FA1144C00B09400 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4F2CFA41FA1144C00B09400 /* LaunchScreen.storyboard */; };
+		D4457E7D1FCF50460046A534 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4457E7C1FCF50460046A534 /* AppDelegate.swift */; };
+		D4457E7F1FCF50460046A534 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4457E7E1FCF50460046A534 /* ViewController.swift */; };
+		D4457E821FCF50460046A534 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4457E801FCF50460046A534 /* Main.storyboard */; };
+		D4457E851FCF50460046A534 /* RiskCompanionApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D4457E831FCF50460046A534 /* RiskCompanionApp.xcdatamodeld */; };
+		D4457E871FCF50460046A534 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4457E861FCF50460046A534 /* Assets.xcassets */; };
+		D4457E8A1FCF50460046A534 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4457E881FCF50460046A534 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D4AF12A21FBCF402009E856A /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
-		D4F2CF961FA1144C00B09400 /* BoardGameCompanion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoardGameCompanion.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D4F2CF991FA1144C00B09400 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D4F2CFA01FA1144C00B09400 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D4F2CFA21FA1144C00B09400 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D4F2CFA51FA1144C00B09400 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D4F2CFA71FA1144C00B09400 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4457E791FCF50460046A534 /* RiskCompanionApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RiskCompanionApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4457E7C1FCF50460046A534 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D4457E7E1FCF50460046A534 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D4457E811FCF50460046A534 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D4457E841FCF50460046A534 /* RiskCompanionApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RiskCompanionApp.xcdatamodel; sourceTree = "<group>"; };
+		D4457E861FCF50460046A534 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4457E891FCF50460046A534 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D4457E8B1FCF50460046A534 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D4F2CF931FA1144C00B09400 /* Frameworks */ = {
+		D4457E761FCF50450046A534 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,72 +37,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D4F2CF8D1FA1144C00B09400 = {
+		D4457E701FCF50450046A534 = {
 			isa = PBXGroup;
 			children = (
-				D4F2CF981FA1144C00B09400 /* BoardGameCompanion */,
-				D4F2CF971FA1144C00B09400 /* Products */,
+				D4457E7B1FCF50460046A534 /* RiskCompanionApp */,
+				D4457E7A1FCF50460046A534 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D4F2CF971FA1144C00B09400 /* Products */ = {
+		D4457E7A1FCF50460046A534 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D4F2CF961FA1144C00B09400 /* BoardGameCompanion.app */,
+				D4457E791FCF50460046A534 /* RiskCompanionApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D4F2CF981FA1144C00B09400 /* BoardGameCompanion */ = {
+		D4457E7B1FCF50460046A534 /* RiskCompanionApp */ = {
 			isa = PBXGroup;
 			children = (
-				D4F2CF991FA1144C00B09400 /* AppDelegate.swift */,
-				D4AF12A21FBCF402009E856A /* PageViewController.swift */,
-				D4F2CF9F1FA1144C00B09400 /* Main.storyboard */,
-				D4F2CFA21FA1144C00B09400 /* Assets.xcassets */,
-				D4F2CFA41FA1144C00B09400 /* LaunchScreen.storyboard */,
-				D4F2CFA71FA1144C00B09400 /* Info.plist */,
+				D4457E7C1FCF50460046A534 /* AppDelegate.swift */,
+				D4457E7E1FCF50460046A534 /* ViewController.swift */,
+				D4457E801FCF50460046A534 /* Main.storyboard */,
+				D4457E861FCF50460046A534 /* Assets.xcassets */,
+				D4457E881FCF50460046A534 /* LaunchScreen.storyboard */,
+				D4457E8B1FCF50460046A534 /* Info.plist */,
+				D4457E831FCF50460046A534 /* RiskCompanionApp.xcdatamodeld */,
 			);
-			path = BoardGameCompanion;
+			path = RiskCompanionApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D4F2CF951FA1144C00B09400 /* BoardGameCompanion */ = {
+		D4457E781FCF50450046A534 /* RiskCompanionApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D4F2CFAA1FA1144C00B09400 /* Build configuration list for PBXNativeTarget "BoardGameCompanion" */;
+			buildConfigurationList = D4457E8E1FCF50460046A534 /* Build configuration list for PBXNativeTarget "RiskCompanionApp" */;
 			buildPhases = (
-				D4F2CF921FA1144C00B09400 /* Sources */,
-				D4F2CF931FA1144C00B09400 /* Frameworks */,
-				D4F2CF941FA1144C00B09400 /* Resources */,
+				D4457E751FCF50450046A534 /* Sources */,
+				D4457E761FCF50450046A534 /* Frameworks */,
+				D4457E771FCF50450046A534 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = BoardGameCompanion;
-			productName = BoardGameCompanion;
-			productReference = D4F2CF961FA1144C00B09400 /* BoardGameCompanion.app */;
+			name = RiskCompanionApp;
+			productName = RiskCompanionApp;
+			productReference = D4457E791FCF50460046A534 /* RiskCompanionApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D4F2CF8E1FA1144C00B09400 /* Project object */ = {
+		D4457E711FCF50450046A534 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0900;
-				LastUpgradeCheck = 0900;
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = "Joshua Steward";
 				TargetAttributes = {
-					D4F2CF951FA1144C00B09400 = {
-						CreatedOnToolsVersion = 9.0;
+					D4457E781FCF50450046A534 = {
+						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = D4F2CF911FA1144C00B09400 /* Build configuration list for PBXProject "BoardGameCompanion" */;
+			buildConfigurationList = D4457E741FCF50450046A534 /* Build configuration list for PBXProject "RiskCompanionApp" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -108,54 +111,55 @@
 				en,
 				Base,
 			);
-			mainGroup = D4F2CF8D1FA1144C00B09400;
-			productRefGroup = D4F2CF971FA1144C00B09400 /* Products */;
+			mainGroup = D4457E701FCF50450046A534;
+			productRefGroup = D4457E7A1FCF50460046A534 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D4F2CF951FA1144C00B09400 /* BoardGameCompanion */,
+				D4457E781FCF50450046A534 /* RiskCompanionApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D4F2CF941FA1144C00B09400 /* Resources */ = {
+		D4457E771FCF50450046A534 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4F2CFA61FA1144C00B09400 /* LaunchScreen.storyboard in Resources */,
-				D4F2CFA31FA1144C00B09400 /* Assets.xcassets in Resources */,
-				D4F2CFA11FA1144C00B09400 /* Main.storyboard in Resources */,
+				D4457E8A1FCF50460046A534 /* LaunchScreen.storyboard in Resources */,
+				D4457E871FCF50460046A534 /* Assets.xcassets in Resources */,
+				D4457E821FCF50460046A534 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D4F2CF921FA1144C00B09400 /* Sources */ = {
+		D4457E751FCF50450046A534 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4F2CF9A1FA1144C00B09400 /* AppDelegate.swift in Sources */,
-				D4AF12A31FBCF402009E856A /* PageViewController.swift in Sources */,
+				D4457E7F1FCF50460046A534 /* ViewController.swift in Sources */,
+				D4457E851FCF50460046A534 /* RiskCompanionApp.xcdatamodeld in Sources */,
+				D4457E7D1FCF50460046A534 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D4F2CF9F1FA1144C00B09400 /* Main.storyboard */ = {
+		D4457E801FCF50460046A534 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D4F2CFA01FA1144C00B09400 /* Base */,
+				D4457E811FCF50460046A534 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		D4F2CFA41FA1144C00B09400 /* LaunchScreen.storyboard */ = {
+		D4457E881FCF50460046A534 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D4F2CFA51FA1144C00B09400 /* Base */,
+				D4457E891FCF50460046A534 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -163,7 +167,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		D4F2CFA81FA1144C00B09400 /* Debug */ = {
+		D4457E8C1FCF50460046A534 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -211,7 +215,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -220,7 +224,7 @@
 			};
 			name = Debug;
 		};
-		D4F2CFA91FA1144C00B09400 /* Release */ = {
+		D4457E8D1FCF50460046A534 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -262,7 +266,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -270,28 +274,28 @@
 			};
 			name = Release;
 		};
-		D4F2CFAB1FA1144C00B09400 /* Debug */ = {
+		D4457E8F1FCF50460046A534 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = BoardGameCompanion/Info.plist;
+				INFOPLIST_FILE = RiskCompanionApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = edu.fhu.students.joshuasteward.BoardGameCompanion;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.fhu.students.joshuasteward.RiskCompanionApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		D4F2CFAC1FA1144C00B09400 /* Release */ = {
+		D4457E901FCF50460046A534 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = BoardGameCompanion/Info.plist;
+				INFOPLIST_FILE = RiskCompanionApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = edu.fhu.students.joshuasteward.BoardGameCompanion;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.fhu.students.joshuasteward.RiskCompanionApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -301,25 +305,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D4F2CF911FA1144C00B09400 /* Build configuration list for PBXProject "BoardGameCompanion" */ = {
+		D4457E741FCF50450046A534 /* Build configuration list for PBXProject "RiskCompanionApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D4F2CFA81FA1144C00B09400 /* Debug */,
-				D4F2CFA91FA1144C00B09400 /* Release */,
+				D4457E8C1FCF50460046A534 /* Debug */,
+				D4457E8D1FCF50460046A534 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D4F2CFAA1FA1144C00B09400 /* Build configuration list for PBXNativeTarget "BoardGameCompanion" */ = {
+		D4457E8E1FCF50460046A534 /* Build configuration list for PBXNativeTarget "RiskCompanionApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D4F2CFAB1FA1144C00B09400 /* Debug */,
-				D4F2CFAC1FA1144C00B09400 /* Release */,
+				D4457E8F1FCF50460046A534 /* Debug */,
+				D4457E901FCF50460046A534 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D4457E831FCF50460046A534 /* RiskCompanionApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D4457E841FCF50460046A534 /* RiskCompanionApp.xcdatamodel */,
+			);
+			currentVersion = D4457E841FCF50460046A534 /* RiskCompanionApp.xcdatamodel */;
+			path = RiskCompanionApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
-	rootObject = D4F2CF8E1FA1144C00B09400 /* Project object */;
+	rootObject = D4457E711FCF50450046A534 /* Project object */;
 }
