@@ -10,6 +10,7 @@ import UIKit
 
 class MyTableViewController: UITableViewController {
 
+    private var headers: [String] = []
     private var data: [String] = []
     
     override func viewDidLoad() {
@@ -20,6 +21,10 @@ class MyTableViewController: UITableViewController {
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
+        headers.append("What is Risk?")
+        headers.append("Taking a Turn")
+        headers.append("Finishing the Game")
+        
         data.append("1.1 - Welcome to Risk!")
         data.append("1.2 - Goal of the game")
         data.append("1.3 - Setting up the game")
@@ -66,6 +71,8 @@ class MyTableViewController: UITableViewController {
     
     return cell //4.
     }
+    
+    
 
     /*
     // Override to support conditional editing of the table view.

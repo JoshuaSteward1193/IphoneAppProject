@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -48,6 +49,61 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4FI-FF-zbf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-604" y="71"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Qmv-AE-iOQ">
+            <objects>
+                <navigationController id="aO6-ar-O8G" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="JH8-GD-doN">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="bix-1u-Iwp" kind="relationship" relationship="rootViewController" id="C4k-fh-OcJ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CMi-QD-lfq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="183" y="71"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Mbz-H0-zed">
+            <objects>
+                <viewController id="bix-1u-Iwp" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oUP-tX-3rc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B3i-r0-eHq">
+                                <rect key="frame" x="16" y="617" width="98" height="30"/>
+                                <state key="normal" title="Previous Page"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ShI-a6-4du">
+                                <rect key="frame" x="288" y="617" width="71" height="30"/>
+                                <state key="normal" title="Next Page"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Main Text Box" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I0E-Ri-W3p">
+                                <rect key="frame" x="16" y="83" width="343" height="512"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="D3x-t3-9c2" firstAttribute="trailing" secondItem="ShI-a6-4du" secondAttribute="trailing" constant="16" id="4gI-Y3-nt2"/>
+                            <constraint firstItem="D3x-t3-9c2" firstAttribute="bottom" secondItem="B3i-r0-eHq" secondAttribute="bottom" constant="20" id="5Gl-vr-XN6"/>
+                            <constraint firstItem="B3i-r0-eHq" firstAttribute="leading" secondItem="D3x-t3-9c2" secondAttribute="leading" constant="16" id="F7F-Dj-QxJ"/>
+                            <constraint firstItem="D3x-t3-9c2" firstAttribute="bottom" secondItem="ShI-a6-4du" secondAttribute="bottom" constant="20" id="esG-MF-BBS"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="D3x-t3-9c2"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="0ex-ea-ggT"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gyx-lg-TrV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1028" y="70.614692653673174"/>
         </scene>
     </scenes>
 </document>
