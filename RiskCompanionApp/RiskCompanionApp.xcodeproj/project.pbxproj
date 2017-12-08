@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D4018D531FD5E6F80024F7F5 /* RuleDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4018D521FD5E6F80024F7F5 /* RuleDetailsViewController.swift */; };
 		D42A1BB71FD2568300C6E603 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42A1BB61FD2568300C6E603 /* AppDelegate.swift */; };
 		D42A1BB91FD2568300C6E603 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42A1BB81FD2568300C6E603 /* ViewController.swift */; };
 		D42A1BBC1FD2568300C6E603 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D42A1BBA1FD2568300C6E603 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D4018D521FD5E6F80024F7F5 /* RuleDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuleDetailsViewController.swift; sourceTree = "<group>"; };
 		D42A1BB31FD2568300C6E603 /* RiskCompanionApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RiskCompanionApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D42A1BB61FD2568300C6E603 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D42A1BB81FD2568300C6E603 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				D42A1BB81FD2568300C6E603 /* ViewController.swift */,
 				D42A1BCB1FD257D400C6E603 /* MyTableViewController.swift */,
 				D42A1BCF1FD25C1700C6E603 /* MyTableViewCell.swift */,
+				D4018D521FD5E6F80024F7F5 /* RuleDetailsViewController.swift */,
 				D42A1BBA1FD2568300C6E603 /* Main.storyboard */,
 				D42A1BC01FD2568300C6E603 /* Assets.xcassets */,
 				D42A1BC21FD2568300C6E603 /* LaunchScreen.storyboard */,
@@ -146,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D42A1BB91FD2568300C6E603 /* ViewController.swift in Sources */,
+				D4018D531FD5E6F80024F7F5 /* RuleDetailsViewController.swift in Sources */,
 				D42A1BBF1FD2568300C6E603 /* RiskCompanionApp.xcdatamodeld in Sources */,
 				D42A1BB71FD2568300C6E603 /* AppDelegate.swift in Sources */,
 				D42A1BD01FD25C1700C6E603 /* MyTableViewCell.swift in Sources */,

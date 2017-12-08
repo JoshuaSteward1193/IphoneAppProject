@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ptq-8Q-35L">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5cR-V8-X8J">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--My Table View Controller-->
+        <!--Risk-->
         <scene sceneID="btD-36-KSV">
             <objects>
                 <tableViewController id="ptq-8Q-35L" customClass="MyTableViewController" customModule="RiskCompanionApp" customModuleProvider="target" sceneMemberID="viewController">
@@ -37,6 +37,7 @@
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="lblMain" destination="Suw-GN-Vfm" id="7mx-yu-ump"/>
+                                    <segue destination="bix-1u-Iwp" kind="show" identifier="ShowDetailsSegue" id="ZrI-Xw-G2e"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -45,31 +46,16 @@
                             <outlet property="delegate" destination="ptq-8Q-35L" id="DuD-Tr-DRT"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" title="Risk" id="OZy-P7-IXR"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4FI-FF-zbf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-604" y="71"/>
+            <point key="canvasLocation" x="-264.80000000000001" y="70.614692653673174"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="Qmv-AE-iOQ">
-            <objects>
-                <navigationController id="aO6-ar-O8G" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="JH8-GD-doN">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="bix-1u-Iwp" kind="relationship" relationship="rootViewController" id="C4k-fh-OcJ"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="CMi-QD-lfq" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="183" y="71"/>
-        </scene>
-        <!--View Controller-->
+        <!--Risk-->
         <scene sceneID="Mbz-H0-zed">
             <objects>
-                <viewController id="bix-1u-Iwp" sceneMemberID="viewController">
+                <viewController id="bix-1u-Iwp" customClass="RuleDetailsViewController" customModule="RiskCompanionApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oUP-tX-3rc">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -82,10 +68,10 @@
                                 <rect key="frame" x="288" y="617" width="71" height="30"/>
                                 <state key="normal" title="Next Page"/>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Main Text Box" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I0E-Ri-W3p">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Main Text Box" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I0E-Ri-W3p">
                                 <rect key="frame" x="16" y="83" width="343" height="512"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -99,11 +85,32 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="D3x-t3-9c2"/>
                     </view>
-                    <navigationItem key="navigationItem" id="0ex-ea-ggT"/>
+                    <navigationItem key="navigationItem" title="Risk" id="0ex-ea-ggT"/>
+                    <connections>
+                        <outlet property="rulesDetailsLabel" destination="I0E-Ri-W3p" id="57Y-vw-JkL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gyx-lg-TrV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1028" y="70.614692653673174"/>
+            <point key="canvasLocation" x="458" y="71"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="3Iu-Or-eVQ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="5cR-V8-X8J" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Uo2-lf-vgY">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="ptq-8Q-35L" kind="relationship" relationship="rootViewController" id="PQN-QS-r8v"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="clF-oq-PKn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1002" y="71"/>
         </scene>
     </scenes>
 </document>
